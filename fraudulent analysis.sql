@@ -3,6 +3,7 @@ USE UniTech;
 
 # DATA ANALYSIS GROUP CAPSTONE PROJECT COHORT 8
 # PROJECT TITLE: Fraud Transaction Analysis
+# DATE CREATED: 25-10-2026
 # GROUP NAME: Sunshine Group (MYSQL)
 # GROUP MEMBERS: 
 # 1. Chidiebere Priest Iloakpuwa (Group Leader)
