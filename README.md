@@ -45,12 +45,7 @@ RECOMMENDATIONS:
 
 VISUALIZATION: (Scripts)
 
-APPROACH:
-1. Database Selection: Selected the UniTech database and the fraudulent table.
-2. Data Exploration: Used DESCRIBE and SELECT ... LIMIT 10 to inspect the table structure and sample records.
-3. Data Quality Checks: Wrote SQL queries to check for duplicate records and missing values.
-4. Data Analysis: Used COUNT(), SUM(), AVG(), MAX(), ROUND(), GROUP BY, and ORDER BY to analyze authentication methods and transaction patterns.
-5. Interpretation: Evaluated the results, identified limitations, and developed recommendations for improved transaction security.
+APPROACH: The project began by exploring the transaction dataset in MySQL, examining its structure, sample records, missing values, and duplicate records. SQL queries were then used to analyze authentication methods by transaction count, transaction amount, transaction type, device, location, and day of the week. Finally, the results were interpreted to identify transaction patterns, highlight data limitations, and recommend strategies for improving transaction monitoring and security.
 
 Limitation:
 1. A Dedicated Fraud-Status Column was not assigned, although The File Records Authentication Methods, Transaction Amounts, Transaction Types, Devices, Locations, And Transaction Dates, It Does Not Identify Which Transactions Are Confirmed Fraudulent. Therefore, The Analysis Cannot Conclusively Determine Which Authentication Method Is Associated With The Highest Number Of Actual Fraud Cases.
