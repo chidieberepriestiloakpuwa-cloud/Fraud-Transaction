@@ -1,7 +1,7 @@
 # Fraud-Transaction
 Business Case: Analyse The Data To Uncover Authentication Method Used in Fraudulent Transactions
 
-#### SUMMARY:
+### SUMMARY:
 This project uses MySQL to analyze 50,000 transaction records and investigate how different authentication methods are used across transaction types, devices, locations, and days of the week. The goal is to identify transaction patterns that may require further investigation and help improve fraud monitoring and transaction security.
 
 #### OBJECTIVES:
@@ -58,7 +58,7 @@ The project began by exploring the transaction dataset in MySQL, examining its s
 
 5. The location analysis compares authentication methods across recorded locations but does not establish whether a transaction occurred in an unusual location for a particular customer.
 
-The queries compare transaction counts and monetary values across authentication methods but do not calculate fraud rates or authentication success rates. Consequently, a method with the highest transaction volume cannot automatically be considered the least secure.
+6. The queries compare transaction counts and monetary values across authentication methods but do not calculate fraud rates or authentication success rates. Consequently, a method with the highest transaction volume cannot automatically be considered the least secure.
 
-The analysis uses counts, sums, averages, and maximum values. It does not include statistical tests or predictive models to establish whether observed differences are significant or to predict fraudulent transactions.
+7. The analysis uses counts, sums, averages, and maximum values. It does not include statistical tests or predictive models to establish whether observed differences are significant or to predict fraudulent transactions.
 
