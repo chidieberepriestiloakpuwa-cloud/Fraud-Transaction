@@ -42,12 +42,9 @@ RECOMMENDATIONS:
 
 10. We recommended adding a verified fraud indicator, investigating unusual transactions, improving data quality, and strengthening security controls for high-risk transactions.
 
-
-VISUALIZATION: (Scripts)
-
 APPROACH: The project began by exploring the transaction dataset in MySQL, examining its structure, sample records, missing values, and duplicate records. SQL queries were then used to analyze authentication methods by transaction count, transaction amount, transaction type, device, location, and day of the week. Finally, the results were interpreted to identify transaction patterns, highlight data limitations, and recommend strategies for improving transaction monitoring and security.
 
-Limitation:
+LIMITATIONS:
 1. A Dedicated Fraud-Status Column was not assigned, although The File Records Authentication Methods, Transaction Amounts, Transaction Types, Devices, Locations, And Transaction Dates, It Does Not Identify Which Transactions Are Confirmed Fraudulent. Therefore, The Analysis Cannot Conclusively Determine Which Authentication Method Is Associated With The Highest Number Of Actual Fraud Cases.
 
 2. The Dataset Does Not Provide Authentication Success Or Failure Information, Failed Login Attempts, Or Details Of Additional Security Verification. This Limits The Ability To Determine Whether A Particular Authentication Method Successfully Prevented Suspicious Transactions.
