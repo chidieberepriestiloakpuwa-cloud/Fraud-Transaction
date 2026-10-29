@@ -1,10 +1,16 @@
 # Fraud-Transaction
-Analyse The Data To Uncover Authentication Method Used in Fraudulent Transactions
+Business Case: Analyse The Data To Uncover Authentication Method Used in Fraudulent Transactions
 
-Data Summary:
+Summary:
 
-Objectives: 
+Objectives:
 
-Appreciation: 
+Key Findings
+
+Recommendation:
+
+Visualization: (Scripts)
+
+Approach.
 
 Limitation: 
